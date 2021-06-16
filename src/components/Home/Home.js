@@ -7,7 +7,7 @@ import { Spinner } from 'react-bootstrap';
 const Home = () => {
     const [foods, setFood] = useState([]);
     useEffect(() => {
-        fetch('http://localhost:5000/foods')
+        fetch('https://immense-everglades-90084.herokuapp.com/foods')
         .then(response => response.json())
         .then(data => setFood(data));
     },[])

@@ -8,13 +8,13 @@ const ManageFood = () => {
     },[])
 
     const reload = () =>{
-            fetch('http://localhost:5000/foods')
+            fetch('https://immense-everglades-90084.herokuapp.com/foods')
             .then(response => response.json())
             .then(data => setFood(data));
     }
 
     const handleDelete = (id) =>{
-        fetch(`http://localhost:5000/delete/${id}`,{
+        fetch(`https://immense-everglades-90084.herokuapp.com/delete/${id}`,{
             method: 'DELETE'
         })
         .then(response=>response.json())

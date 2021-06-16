@@ -15,7 +15,7 @@ const AddFood = () => {
         }
         console.log(foodData);
 
-        const url = `http://localhost:5000/addFood`;
+        const url = `https://immense-everglades-90084.herokuapp.com/addFood`;
         fetch(url, {
             method: 'POST',
             headers: {'Content-Type': 'application/json'},

@@ -9,7 +9,7 @@ const CheckOut = () => {
     const [order,setOrder] = useState({});
     const [name,setName] = useState(null);
     useEffect(() => {
-        const url = `http://localhost:5000/food/${id}`
+        const url = `https://immense-everglades-90084.herokuapp.com/food/${id}`
         fetch(url) 
         .then(response=>response.json())
         .then(data =>{
@@ -24,7 +24,7 @@ const CheckOut = () => {
 
 
     const postOrder = () => {
-        fetch('http://localhost:5000/addOrder',{
+        fetch('https://immense-everglades-90084.herokuapp.com/addOrder',{
             method: 'POST',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify(order)
