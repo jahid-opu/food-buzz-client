@@ -41,6 +41,7 @@ const CheckOut = () => {
     return (
         <div className="checkOut-area">
             <p>Dear {order.userName}, Thanks for your orders, You have purchased: </p>
+            <img style={{width:"50px"}} src={order.imageURL} alt="" />
             <h5>Name: {name}</h5>
             <h5>Price: ${order.price}</h5>
             
