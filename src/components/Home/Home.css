@@ -1,0 +1,6 @@
+.food-area{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 50px 100px !important;
+}

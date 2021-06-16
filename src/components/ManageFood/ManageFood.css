@@ -1,0 +1,25 @@
+.manageFood {
+    width:70%;
+    margin: 0 auto;
+    border-right: 1px solid rgba(0, 0, 0, 0.534);
+    border-left: 1px solid rgba(0, 0, 0, 0.534);
+    border-top: 1px solid rgba(0, 0, 0, 0.534);
+
+}
+.manageFood li {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.534);
+    margin: 10px 0;
+}
+.manageFood h6{
+    margin: 0 60px;
+    width: 150px;
+}
+.manageFood div {
+    border: 1px solid black;
+}
+.manageFood button {
+    margin: 5px;
+}

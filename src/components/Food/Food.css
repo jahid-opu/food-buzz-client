@@ -1,0 +1,13 @@
+.cards img{
+    width: 200px;
+}
+.cards {
+    background-color: white;
+    width:250px;
+    margin: 35px !important;
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.459);
+}
+.card-img{
+    width: 200px !important;
+}

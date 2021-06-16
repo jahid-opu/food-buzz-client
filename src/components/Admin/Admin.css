@@ -1,0 +1,21 @@
+.sidebar{
+    width:20%;
+    float:left;
+    background-color: black;
+    color:white;
+    height:100vh;
+    padding: 50px 20px;
+}
+.admin-btn {
+    color: white;
+    cursor: pointer;
+}
+.display-area{
+    padding: 100px;
+    width: 80%;
+    float:left;
+}
+.devider {
+    border: 1px solid white;
+    margin-bottom: 30px;
+}
